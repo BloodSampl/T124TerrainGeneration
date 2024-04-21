@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.44657844, g: 0.49641222, b: 0.57481676, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -318,7 +318,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1719555596}
-  - component: {fileID: 1719555595}
+  - component: {fileID: 1719555597}
   m_Layer: 0
   m_Name: GameObject (1)
   m_TagString: Untagged
@@ -326,23 +326,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1719555595
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1719555594}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c6f133bd2bcdd45a98a1f3409346e6ba, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  totalRectangleX: 50
-  totalRectangleZ: 50
-  highScale: 30
-  heightMap: {fileID: 2800000, guid: 6139e20f1ad054427ad574ae2c3cde86, type: 3}
-  material: {fileID: 2100000, guid: 5ff5a344a42e94f799bce70d748545d2, type: 2}
 --- !u!4 &1719555596
 Transform:
   m_ObjectHideFlags: 0
@@ -358,6 +341,23 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1719555597
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1719555594}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1855853776, guid: fa31b190c36d0d843a1f8c4e5495e291, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  totalRectangleX: 100
+  totalRectangleZ: 100
+  highScale: 30
+  heightMap: {fileID: 2800000, guid: 6139e20f1ad054427ad574ae2c3cde86, type: 3}
+  material: {fileID: 2100000, guid: 5ff5a344a42e94f799bce70d748545d2, type: 2}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
